@@ -2,22 +2,41 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navega por las citas</title>
-    <p>Vuelve a la <a href="index.html">página principal</a></p>
+    <link rel="stylesheet" type="text/css" href="estilo2.css">
 </head>
+
+<body>
+
+<!--Links de navegación flotantes-->
+    
+<header class="cabeceraFlotante">
+    <nav>
+        <ul class="menu">
+            <li><a href="formulario.html">Colabora con nosotros</a> </li>
+            <li><a href="index.html">Vuelve a la página principal</a></li>
+            <li><img src="multimedia/imagenes/persona_pensando_transparente.png" height="40"></li>
+        </ul>
+    </nav>
+</header>
 
 <!--Introducción-->
 
-<header>
-    <h1>Citas filosóficas</h1>
-    <p>Aquí puedes encontrar una selección de citas filosóficas identificadas por autor:</p>
-    <img src="multimedia/imagenes/pergamino.jpg" height="100">
-    <br/><br/>
+<header class="contenido">
+    <div>
+        <h1>Citas filosóficas</h1>
+    </div>
+    <div>
+        <img class="imagenCentrada" src="multimedia/imagenes/pergamino.png" height="100">
+    </div>
+    <p class="parrafoCentrado">Aquí puedes encontrar una selección de citas filosóficas identificadas por autor:</p>
+    <br/>
 </header>
 
 <!--Sección con las citas-->
 
-<section>
+<section class="citas">
     <article>
         <p>La cosa más difícil es conocernos a nosotros mismos; la más fácil es hablar mal de los demás. 
             <br/>(Tales de Mileto)</p>
@@ -46,7 +65,11 @@
 
 <!--Footer con enlaces-->
 <footer>
-    <a href="formulario.html">Colabora con nosotros</a> 
-    <a href="citas.html">Navega por nuestra selección de citas</a>
-    <p>Vuelve a la <a href="index.html">página principal</a></p>
+    <a>Algunas webs interesantes sobre filosofía:</a>
+    <ul class="menu">
+        <li><a href="https://www.filosofia.org/">Filosofía en español</a></li> 
+        <li><a href="https://vonneumannmachine.wordpress.com/">La máquina de Von Neumann</a></li>
+        <li><a href="https://www.revistadefilosofia.org/index.php/ERF">Revista Eikasía</a></li>
+    </ul>
 </footer>
+</body>

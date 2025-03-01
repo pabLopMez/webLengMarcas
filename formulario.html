@@ -2,53 +2,74 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colabora con nosotros</title>
+    <link rel="stylesheet" type="text/css" href="estilo2.css">
 </head>
 
-<!--Introducción-->
-
-<header>
-    <h1>Colabora con nosotros</h1>
-    <p>Si eres un apasionado de la filosofía y quieres colaborar con nuestro proyecto, no dudes en enviarnos tus citas favoritas.
-        ¡Estaremos encantados de incluirlas!
-    </p>
-    <p>Vuelve a la <a href="index.html">página principal</a></p>
-</header>
-
-<section>
-    <p>Colaborar es muy sencillo. Solo tienes que</p>
-    <ul>
-        <li>Seleccionar tu cita favorita</li>
-        <li>Introducirla en el cuadro de texto</li>
-        <li>Indicarnos tu email</li>
-        <li>¡Darle a enviar!</li>
-    </ul>
-</section>
-
-<!--Formulario para enviar citas-->
-
-<fieldset>
-    <legend>Envíanos tus citas</legend>
+<body>
     
-    <form name="formulario" action="">
-        <label>Por favor, introduce tu email:</label>
-        <br/>
-        <input type="email" name="emailInput" placeholder="Introduce tu email" required>
-        <br/>
-        <label>Inserta aquí tu cita:</label>
-        <br/>
-        <textarea name="textoEnviarCita" placeholder="Solo sé..." cols="100" rows="20"></textarea>
-        <br/>
-        Estoy de acuerdo con que FiloCitas conozca mi email para informarme acerca de la recepción de mi aporte
-        <input type="checkbox" name="chekTratamientoEmail" required>
+   <!--Links de navegación flotantes-->
+    
+<header class="cabeceraFlotante">
+    <nav>
+        <ul class="menu">
+            <li><a href="citas.html">Navega por nuestra selección de citas</a></li>
+            <li><a href="index.html">Vuelve a la página principal</a></li>
+            <li><img src="multimedia/imagenes/persona_pensando_transparente.png" height="40"></li>
+        </ul>
+    </nav>
+</header>
+    
+    <!--Introducción-->
+    
+    <header class="contenido">
+        <div>
+            <h1>Colabora con nosotros</h1>
+        </div>
+        <p class="parrafoCentrado">Si eres un apasionado de la filosofía y quieres colaborar con nuestro proyecto, no dudes en enviarnos tus citas favoritas.
+            ¡Estaremos encantados de incluirlas!
+        </p>
+    </header>
+    
+    <section>
+        <p>Colaborar es muy sencillo. Solo tienes que</p>
+        <ul class="listaDesordenada">
+            <li>Seleccionar tu cita favorita</li>
+            <li>Introducirla en el cuadro de texto</li>
+            <li>Indicarnos tu email</li>
+            <li>¡Darle a enviar!</li>
+        </ul>
+    </section>
+    
+    <!--Formulario para enviar citas-->
+    
+    <fieldset>
+        <legend>Envíanos tus citas</legend>
+        
+        <form name="formulario" action="">
+            <label>Por favor, introduce tu email:</label>
+            <br/>
+            <input type="email" name="emailInput" placeholder="Introduce tu email" required>
+            <br/>
+            <label>Inserta aquí tu cita:</label>
+            <br/>
+            <textarea name="textoEnviarCita" placeholder="Solo sé..." cols="80" rows="20"></textarea>
+            <br/>
+            Estoy de acuerdo con que FiloCitas conozca mi email para informarme acerca de la recepción de mi aporte
+            <input type="checkbox" name="chekTratamientoEmail" required>
         </br></br>
         <input type="submit" value="Enviar aporte">
-</form>
+    </form>
 </fieldset>
 
 <!--Footer con enlaces-->
 <footer>
-    <a href="formulario.html">Colabora con nosotros</a> 
-    <a href="citas.html">Navega por nuestra selección de citas</a>
-    <p>Vuelve a la <a href="index.html">página principal</a></p>
+    <a>Algunas webs interesantes sobre filosofía:</a>
+    <ul class="menu">
+        <li><a href="https://www.filosofia.org/">Filosofía en español</a></li> 
+        <li><a href="https://vonneumannmachine.wordpress.com/">La máquina de Von Neumann</a></li>
+        <li><a href="https://www.revistadefilosofia.org/index.php/ERF">Revista Eikasía</a></li>
+    </ul>
 </footer>
+</body>
