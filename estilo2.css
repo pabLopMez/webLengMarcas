@@ -1,0 +1,132 @@
+/*Todo el documento*/
+*{margin: 10px;
+padding: 5px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+/*Cuerpo del codumento*/
+body{background-color: rgb(207, 145, 145);}
+
+/*Títulos*/
+h1, h2, h3{text-align: center;}
+
+.tituloPrincipal{
+    font-variant: small-caps;
+    font-size: 4em;
+}
+
+.contenido { /*Para que el menú flotante no tape los títulos de las páginas*/
+    margin-top: 60px; 
+}
+
+/*Párrafos*/
+p{color:rgb(28, 30, 32);
+text-align: justify;
+text-indent: 1em;
+}
+
+p.parrafoCentrado{
+    color:rgb(137, 45, 45);
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.citas{
+    font-weight: bold;
+}
+
+/*Imágenes*/
+.imagenCentrada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Links*/
+a{
+    color:rgb(245, 245, 220);
+    text-decoration: none;
+}
+
+/*Listas*/
+.listaEnumerada{
+    list-style-type:disc;
+}
+
+.listaDesordenada{
+    list-style-image: url('multimedia/imagenes/flecha.png');
+}
+
+.listaDefiniciones{
+    list-style-type:circle;
+}
+
+/*Tablas*/
+table{
+    background-color: rgb(220, 220, 220);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+td{
+    border-color: rgb(91, 10, 10);
+    border-style:solid; 
+}
+
+/*Elementos flotantes*/
+.elementoFlotante{
+    float: left;
+}
+
+/*Formulario*/
+form{
+    background-color: rgb(137, 45, 45);
+    border-style:solid;
+    font-style:normal;
+}
+
+/*Menú de navegación flotante*/
+
+    /*Menú*/
+ul.menu {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #7C7C7C;
+}
+    
+ul.menu li {
+    float: left;
+}
+    
+ul.menu li a {
+    padding: .3em;
+    display: block;
+     text-decoration: none;
+     color: #dbd3d3;
+     background: #924c4c;
+     border-top: 1px solid #7C7C7C;
+     border-right: 1px solid #7C7C7C;
+    border-bottom: 1px solid #9C9C9C;
+}
+    
+    /*Cabecera flotante*/
+
+.cabeceraFlotante{
+    position: fixed;
+    top: -50px; /*Oculta la cabecera hacia arriba*/
+    left: 0;
+    width: 100%;
+    background-color: rgb(60, 20, 20);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    transition: top 0.3s; /* Animación suave para el movimiento */
+    z-index: 1000; /* Asegura que la cabecera esté encima de otros contenidos */
+
+}
+    
+
