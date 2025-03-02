@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- La parte fija del fichero xml correspondiente a un rss -->
+<rss version="2.0">
+  <channel>
+    <title>FiloCitas</title>
+    <link>https://pablopmez.github.io/webLengMarcas/</link>
+    <description>Las ultimas novedades filosoficas</description>
+    <!-- La parte fija opcional -->
+    <language>es-ES</language>
+    <image>
+      <title>FiloCitas</title>
+      <url>https://pablopmez.github.io/webLengMarcas/multimedia/imagenes/persona_pensando_transparente.png</url>
+      <link>https://pablopmez.github.io/webLengMarcas/</link>
+      <width>90</width>
+      <height>36</height>
+    </image>
+    <!-- La parte variable, la que corresponde a cada noticia o ítem -->
+    <item>
+      <title>Portada</title>
+      <link>https://pablopmez.github.io/webLengMarcas/</link>
+      <description>La pagina principal de FiloCitas</description>
+    </item>
+    <item>
+      <title>Sección de citas</title>
+      <link>https://pablopmez.github.io/webLengMarcas/citas.html</link>
+      <description>Las ultimas citas filosoficas elegidas</description>
+    </item>
+  </channel>
+</rss>
